@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_OTP"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/otp"
+        android:background="@color/button_background"
+        android:textStyle="bold"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="20sp"
+        android:paddingTop="5dp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/et_OTP"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:background="@drawable/txt_background"
+        android:maxLength="4"
+        android:hint="Enter OTP"
+        android:fontFamily="sans-serif"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:layout_below="@+id/tv_OTP"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btn_OTP_Submit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/button_background"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/textColorPrimary"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:layout_below="@+id/et_OTP"
+        android:layout_centerHorizontal="true"
+        android:text="@string/submit" />
+
+</RelativeLayout>

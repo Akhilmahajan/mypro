@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">PickMeHere</string>
+    <string name="login">Login</string>
+    <string name="submit">SUBMIT</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="new_account">Create new account? </string>
+    <string name="have_account">Have an account?</string>
+    <string name="forgot">Forget password</string>
+    <string name="email2">Email</string>
+    <string name="signUp">SignUp</string>
+    <string name="tnc">T&amp;C</string>
+    <string name="forgotpass">Forget Password</string>
+    <string name="otp">OTP</string>
+    <string name="changepass">Change password</string>
+    <string name="pickLocation">PICK LOCATION</string>
+    <string name="destination">SELECT DESTINATION</string>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   <group android:id="@+id/group1">
+       <item
+           android:id="@+id/menu_item_home"
+           android:title="Home"
+           android:icon="@drawable/home_icon">
+       </item>
+
+   </group>
+    <group android:id="@+id/group2">
+        <item
+            android:id="@+id/menu_item_profile"
+            android:title="Profile"
+            android:icon="@drawable/pro">
+        </item>
+    </group>
+    <group android:id="@+id/group3">
+        <item
+            android:id="@+id/menu_item_setting"
+            android:title="Settings"
+            android:icon="@drawable/setting_icon">
+        </item>
+    </group>
+
+    <group android:id="@+id/group4">
+        <item
+            android:id="@+id/menu_item_cantactus"
+            android:title="ContactUs"
+            android:icon="@drawable/contact_us_icon">
+        </item>
+    </group>
+
+    <group android:id="@+id/group5">
+        <item
+            android:id="@+id/menu_item_logout"
+            android:title="Logout"
+            android:icon="@drawable/logout_icon">
+        </item>
+    </group>
+
+
+
+
+</menu>
